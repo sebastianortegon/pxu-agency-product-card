@@ -10,8 +10,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	}
 
 	function restoreClick(){
-		var element = document.getElementById("addbtn");
-		element.classList.remove("clicked");
+		var element1 = document.getElementById("addbtn1");
+		element1.classList.remove("clicked");
+		var element2 = document.getElementById("addbtn2");
+		element2.classList.remove("clicked");
+		var element3 = document.getElementById("addbtn3");
+		element3.classList.remove("clicked");
 	}
 
 	});
